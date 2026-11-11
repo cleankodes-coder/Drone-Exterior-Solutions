@@ -1,0 +1,6 @@
+{
+  "name": "Drone Exterior — AI Command Centre",
+  "description": "Operations command centre, enquiry management, remote survey pipeline and quotation management for Drone Exterior Solutions Ltd.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

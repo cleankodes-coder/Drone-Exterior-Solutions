@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --brand-navy: #0B1424;
+    --brand-blue: #14243C;
+    --brand-gold: #F5B82E;
+    --brand-offwhite: #F6F8FB;
+    --brand-muted: #738198;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  code, kbd, samp, pre {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+  }
+}
+
+/* Custom scrollbar for dense tables and preview panels */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(11, 20, 36, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(115, 129, 152, 0.3);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(245, 184, 46, 0.5);
+}
